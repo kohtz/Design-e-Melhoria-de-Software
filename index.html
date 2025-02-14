@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Alterei para que a linguagem para melhor acessibilidade para os usuários-->
+<head>
+    <meta charset="UTF-8"> <!-- Adicionado o padrão de codificação UTF-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade do conteúdo-->
+    <title>Site Melhorado</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Separação da estilização do código para uma organização melhor-->
+</head>
+
+<!-- Realizei uma melhoria na semântica do HTML-->
+<body>
+    <header class="header">
+        <h1>Meu Site</h1>
+    </header>
+        <main>             
+        <section class="container">
+            <article class="content">
+                <h2>Sobre o Site</h2>
+                <p id="text1">Bem-vindo ao Meu Site! Aqui você encontra informações úteis e interativas. Explore as seções e aproveite!</p>
+            </article>
+        
+            <article class="content">
+                <h2>Sobre Mim</h2>
+                <p id="text2">Engenheiro de Software</p>
+            </article>      
+        
+        <div class="button-container">
+            <button class="button" onclick="redirecionar()" aria-label="Mostrar mensagem">LinkedIn</button> <!--O botão agora possui a funcionalidade de direcionar para a página do linkedin-->
+        </div>
+        </section>
+    </main>
+    
+    <footer class="footer"> <!-- Adicionei rodapé com informações de contatos-->
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+        <p>📩 Contato: contato@meusite.com</p>
+        <p>🔗 <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+    </footer>
+    
+    <script src="script.js"></script> <!-- Separação do arquivo .js para melhor organização do código-->
+</body>
+</html>
